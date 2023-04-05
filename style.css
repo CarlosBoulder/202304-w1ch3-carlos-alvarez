@@ -5,7 +5,26 @@ html {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: aquamarine;
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+.menu {
+  padding-right: 10px;
+  color: white;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
@@ -14,7 +33,12 @@ header {
 }
 
 .section2 {
-  background-color: rgb(10, 148, 148);
+  background-color: rgb(235, 118, 9);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
   display: flex;
   flex-direction: column;
 }
