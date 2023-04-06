@@ -4,13 +4,25 @@ html {
   margin: 0;
 }
 
+body {
+  background-color: rgb(235, 118, 9);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #0b7451;
   color: white;
+  padding-left: 10px;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 nav {
@@ -28,8 +40,22 @@ a {
   color: white;
 }
 
+section {
+  padding-left: 10px;
+}
+
 .section1 {
   background-color: rgb(25, 243, 170);
+}
+
+p {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin-top: 0px;
+  min-height: 50px;
+  align-items: center;
+  color: white;
 }
 
 .section2 {
@@ -41,4 +67,19 @@ a {
 .content {
   display: flex;
   flex-direction: column;
+}
+
+input {
+  max-width: 200px;
+  min-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  max-width: 100px;
+  min-height: 30px;
+  color: white;
+  background-color: #0b7451;
+  border: none;
 }
